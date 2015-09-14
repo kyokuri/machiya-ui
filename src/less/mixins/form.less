@@ -1,3 +1,4 @@
+// button
 .mui-button {
   background: @mui-default-color;
   padding: 10px 20px;
@@ -47,6 +48,7 @@
   }
 }
 
+// select
 .mui-select {
   background: @mui-default-color;
   outline: 0;
@@ -55,5 +57,23 @@
   cursor: pointer;
   &:hover {
     background: @mui-default-hover-color;
+  }
+}
+
+// input
+.mui-input {
+  position: relative;
+  display: block;
+  border: solid 2px @mui-default-color;
+  height: 44px;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: @mui-font-family;
+  &:focus {
+    border: solid 2px @mui-primary-color;
+  }
+  textarea& {
+    height: 80px;
   }
 }
