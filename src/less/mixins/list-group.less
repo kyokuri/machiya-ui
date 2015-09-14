@@ -1,0 +1,15 @@
+.mui-list-group {
+  @mui-list-group-border-color: #CCC;
+
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid @mui-list-group-border-color;
+  .mui-list-group-item {
+    border-bottom: 1px solid @mui-list-group-border-color;
+    padding: 8px 10px;
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
