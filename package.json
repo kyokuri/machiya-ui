@@ -11,5 +11,11 @@
     "url": "git@github.com:kyokuri/machiya-ui.git"
   },
   "author": "kyokuri",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-watch": "^4.3.5"
+  }
 }
