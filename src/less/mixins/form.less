@@ -1,3 +1,4 @@
+// buttons
 .mui-button {
   background: @mui-default-color;
   padding: 10px 20px;
@@ -44,5 +45,20 @@
     &:hover {
       background: @mui-danger-hover-color;
     }
+  }
+}
+
+// inputs
+.mui-input {
+  position: relative;
+  display: block;
+  border: solid 2px @mui-default-color;
+  height: 44px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: @mui-font-family;
+  &:focus {
+    border: solid 2px @mui-primary-color;
   }
 }
