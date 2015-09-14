@@ -1,0 +1,76 @@
+// markdown
+.mui-markdown {
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    color: #333333;
+    font-weight: normal;
+    font-family: @mui-font-family;
+  }
+  h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  h6 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  p {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  hr {
+    margin: 0 20px;
+    border: none;
+    border-top: 1px solid #DDDDDD;
+    background-color: none;
+  }
+  a {
+    color: @mui-primary-color;
+    text-decoration: none;
+    &:hover {
+      color: @mui-primary-hover-color;
+      text-decoration: underline;
+    }
+  }
+  ul, ol {
+    padding: 0 30px;
+    color: #333333;
+    font: normal 14px/22px @mui-font-family;
+  }
+  blockquote {
+    margin: 20px 0px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.02);
+    border-left: solid 4px #DDDDDD;
+  }
+  code {
+    padding: 4px;
+    background-color: #F0F0F0;
+    font-family: @mui-programming-font-family;
+  }
+  pre {
+    padding: 20px;
+    background-color: #F0F0F0;
+    font: normal 16px/22px @mui-programming-font-family;
+    code {
+      padding: 0px;
+    }
+  }
+}
