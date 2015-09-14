@@ -15,13 +15,6 @@
       }
     }
   }
-  tbody {
-    tr {
-      &:hover {
-        background: #f7f8f9;
-      }
-    }
-  }
 
   &.mui-table-bordered {
     td, th {
@@ -32,6 +25,13 @@
     tbody {
       tr:nth-child(2n) {
         background: #f7f8f9;
+      }
+    }
+  }
+  &.mui-table-hoverable {
+    tbody {
+      tr:hover {
+        background: #f0f1f2;
       }
     }
   }
