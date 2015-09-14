@@ -1,7 +1,9 @@
+@import "./vendor.less";
+
 .toggle-switch(@toggle-switch-button-size: 20px) {
   @toggle-switch-border-color: #ccc;
 
-  .appearance(none);
+  .vendor(appearance, none);
   display: inline-block;
   position: relative;
   width: @toggle-switch-button-size * 2;
