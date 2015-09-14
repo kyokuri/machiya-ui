@@ -1,0 +1,38 @@
+.mui-table {
+  @mui-table-border-color: #ccc;
+
+  width: 100%;
+  border: 1px solid @mui-table-border-color;
+  td, th {
+    border-bottom: 1px solid @mui-table-border-color;
+    padding: 8px 10px;
+  }
+  thead {
+    tr {
+      th {
+        text-align: left;
+        background: @mui-default-color;
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:hover {
+        background: #f7f8f9;
+      }
+    }
+  }
+
+  &.mui-table-bordered {
+    td, th {
+      border: 1px solid @mui-table-border-color;
+    }
+  }
+  &.mui-table-striped {
+    tbody {
+      tr:nth-child(2n) {
+        background: #f7f8f9;
+      }
+    }
+  }
+}
