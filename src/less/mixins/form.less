@@ -1,11 +1,41 @@
 .mui-button {
-  background: @mui-success;
+  background: @mui-success-color;
   padding: 10px 20px;
   margin: 0;
   border: 0;
   color: white;
   outline: none;
   &:hover {
-    background: @mui-success-hover;
+    background: @mui-success-hover-color;
+  }
+  &.mui-button-success {
+    background: @mui-success-color;
+    &:hover {
+      background: @mui-success-hover-color;
+    }
+  }
+  &.mui-button-primary {
+    background: @mui-primary-color;
+    &:hover {
+      background: @mui-primary-hover-color;
+    }
+  }
+  &.mui-button-info {
+    background: @mui-info-color;
+    &:hover {
+      background: @mui-info-hover-color;
+    }
+  }
+  &.mui-button-warning {
+    background: @mui-warning-color;
+    &:hover {
+      background: @mui-warning-hover-color;
+    }
+  }
+  &.mui-button-danger {
+    background: @mui-danger-color;
+    &:hover {
+      background: @mui-danger-hover-color;
+    }
   }
 }
