@@ -1,0 +1,36 @@
+.toggle-switch(@toggle-switch-button-size: 20px) {
+  @toggle-switch-border-color: #ccc;
+
+  .vendor(appearance, none);
+  display: inline-block;
+  position: relative;
+  width: @toggle-switch-button-size * 2;
+  height: @toggle-switch-button-size;
+  background: @mui-default-color;
+  box-sizing: content-box !important; /* XXX: normalize.cssでborder-boxにされるためimportantをつけてる */
+  border: 1px solid @toggle-switch-border-color;
+  border-radius: @toggle-switch-button-size;
+  outline: 0;
+  &:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: @toggle-switch-button-size;
+    height: @toggle-switch-button-size;
+    box-sizing: border-box;
+    background: white;
+    border: 1px solid @toggle-switch-border-color;
+    border-radius: @toggle-switch-button-size;
+  }
+  &:checked {
+    background: @mui-primary-color;
+    &:after {
+      right: 0;
+    }
+  }
+}
+
+.toggle-switch {
+  .toggle-switch();
+}
