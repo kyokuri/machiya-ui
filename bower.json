@@ -10,7 +10,11 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "example",
+    "src",
+    "gulpfile.js",
+    "package.json"
   ],
   "dependencies": {
     "normalize.css": "~3.0.3"
