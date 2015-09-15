@@ -1,8 +1,8 @@
 {
   "name": "machiya-ui",
-  "version": "1.0.0",
   "authors": [
-    "kyokuri"
+    "Keitaro Yamazaki <tyage@kyokuri.co.jp>",
+    "Masayoshi Wada <masawada@kyokuri.co.jp>"
   ],
   "license": "MIT",
   "ignore": [
